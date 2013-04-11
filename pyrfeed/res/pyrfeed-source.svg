@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    version="1.1"
+    width="128px"
+    height="128px"
+    id="RSSicon"
+    viewBox="0 0 384 384"
+    >
+    <!-- This image is based on work from http://www.feedicons.com/ -->
+    <defs>
+        <linearGradient x1="0.085" y1="0.085" x2="0.915" y2="0.915" id="RSSBlue">
+            <stop  offset="0.0" stop-color="#3366ff"/>
+            <stop  offset="0.5" stop-color="#44aadd"/>
+            <stop  offset="1.0" stop-color="#3366ff"/>
+        </linearGradient>
+        <linearGradient x1="0.085" y1="0.085" x2="0.915" y2="0.915" id="RSSYellow">
+            <stop  offset="0.0" stop-color="#ffcc33"/>
+            <stop  offset="0.5" stop-color="#ffee77"/>
+            <stop  offset="1.0" stop-color="#ffcc33"/>
+        </linearGradient>
+        <linearGradient x1="0.085" y1="0.085" x2="0.915" y2="0.915" id="RSSGreen">
+            <stop  offset="0.0" stop-color="#33bb66"/>
+            <stop  offset="0.5" stop-color="#66dd66"/>
+            <stop  offset="1.0" stop-color="#33bb66"/>
+        </linearGradient>
+        <g id="gblue">
+            <rect width="256" height="256" rx="55" ry="55" x="0"  y="0"  fill="#2244dd"/>
+            <rect width="236" height="236" rx="47" ry="47" x="10" y="10" fill="#44aadd"/>
+            <rect width="226" height="226" rx="40" ry="40" x="15" y="15" fill="url(#RSSBlue)"/>
+            <circle cx="68" cy="189" r="24" fill="#FFF"/>
+            <path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
+            <path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
+        </g>
+        <g id="gyellow">
+            <rect width="256" height="256" rx="55" ry="55" x="0"  y="0"  fill="#ddaa22"/>
+            <rect width="236" height="236" rx="47" ry="47" x="10" y="10" fill="#ffee77"/>
+            <rect width="226" height="226" rx="40" ry="40" x="15" y="15" fill="url(#RSSYellow)"/>
+            <circle cx="68" cy="189" r="24" fill="#FFF"/>
+            <path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
+            <path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
+        </g>
+        <g id="ggreen">
+            <rect width="256" height="256" rx="55" ry="55" x="0"  y="0"  fill="#229944"/>
+            <rect width="236" height="236" rx="47" ry="47" x="10" y="10" fill="#66dd66"/>
+            <rect width="226" height="226" rx="40" ry="40" x="15" y="15" fill="url(#RSSGreen)"/>
+            <circle cx="68" cy="189" r="24" fill="#FFF"/>
+            <path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
+            <path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
+        </g>
+    </defs>
+    <use xlink:href="#ggreen" x="128" y="64"/>
+    <use xlink:href="#gblue" x="0" y="0"/>
+    <use xlink:href="#gyellow" x="64" y="128"/>
+</svg>

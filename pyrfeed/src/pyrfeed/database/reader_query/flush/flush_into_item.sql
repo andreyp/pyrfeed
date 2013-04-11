@@ -1,0 +1,30 @@
+INSERT OR IGNORE INTO
+    Item
+(
+    idItem,
+    google_id,
+    original_id,
+    link,
+    content,
+    title,
+    idAuthor,
+    published,
+    updated,
+    crawled
+)
+SELECT
+    NULL,
+    _tmpItem.google_id,
+    _tmpItem.original_id,
+    _tmpItem.link,
+    _tmpItem.content,
+    _tmpItem.title,
+    Author.idAuthor,
+    _tmpItem.published,
+    _tmpItem.updated,
+    _tmpItem.crawled
+FROM
+    _tmpItem,
+    Author
+WHERE
+    _tmpItem.author = Author.author

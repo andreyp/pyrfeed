@@ -1,0 +1,1 @@
+CREATE INDEX idx_tmpItemCategorie_categorie_name ON _tmpItemCategorie(categorie_name)

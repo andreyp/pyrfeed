@@ -1,0 +1,22 @@
+* decent setup.py with py2exe support
+* pypi support
+* installer for windows
+
+* A lot of test !!!
+* Real plugin support
+* more wx GUI
+** wx Configuration system
+** wx first launch wizard system (should be different, even if it share code and look&feel)
+** wx view menu (some pre-configured action to change filter line)
+* IRC like command line parser
+* help and doc
+
+
+
+*** DONE ***
+
+* better config support (with registration)
+* return feed info with GoogleReader
+* store feed info in database
+* web site/public svn (google)
+* another command line parser
